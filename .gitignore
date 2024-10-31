@@ -1,0 +1,92 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# dotenv environment variables file
+.env
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+dist/
+build/
+
+# Cache directories
+.cache/
+.vite/
+.vite_cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Tailwind CSS
+.tailwindcss/
+
+# Vue-related files
+**/*.local
+**/*.dev
+**/*.prod
+.vuepress
+public/*.css
+public/*.map
+public/static/
+
+# Compiled JavaScript
+*.js
+*.jsx
+*.ts
+*.tsx
+
+# Debug files
+npm-debug.log
+yarn-error.log
+
+# Test output
+coverage/
+
+# Ignore lockfiles
+package-lock.json
+yarn.lock
+
+# Optional npm cache directory
+.npm
+
+# MacOS files
+.DS_Store
+
+# Vite
+vite.config.ts
+
+# ESLint cache
+.eslintcache
+
+# Other config and cache files
+*.sqlite
+__pycache__/
+*.pyc
+.sass-cache/
+.parcel-cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# JetBrains files
+.idea/
+out/
